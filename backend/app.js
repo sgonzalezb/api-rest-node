@@ -1,16 +1,17 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
-const bodyParser = require("body-parser")
+const bodyParser = require("body-parser");
 require("dotenv/config");
 app.use(bodyParser.json());
+const jwt = require("jsonwebtoken");
 
 //import routes
 const postRoute = require("./routes/post")
 
 //ROUTES
 app.get("/", (req, res) => {
-    res.send("Hello world first API Rest with express")
+    res.json("Hello from express!")
 })
 
 app.use("/posts", postRoute)
