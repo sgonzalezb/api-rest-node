@@ -4,9 +4,11 @@
 
 This project is an assignment from the DIW module of the second year of DUAL Web Application Development. It is a REST API built with Node (Express) connected to a Mongo database.
 
-[https://img.shields.io/badge/node-%3E%3D%206.9.0-brightgreen](https://img.shields.io/badge/node-%3E%3D%206.9.0-brightgreen)
+![](`r https://img.shields.io/badge/node-%3E%3D%206.9.0-brightgreen`)
 
-[https://img.shields.io/badge/npm-%3E%3D%208.0.0-brightgreen](https://img.shields.io/badge/npm-%3E%3D%208.0.0-brightgreen)
+![](`r https://img.shields.io/badge/npm-%3E%3D%208.0.0-brightgreen`)
+
+
 
 ## Domain 🔭
 
